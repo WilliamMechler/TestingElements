@@ -31,7 +31,7 @@ XProductProto.createdCallback = function() {
     
     var te = document.createElement('p');
      p.innerText = this.getAttribute('name');
-     shadow.appendChild(p);
+     shadow.appendChild(te);
     
     // Create a link to the product.
     var link = document.createElement('a');
