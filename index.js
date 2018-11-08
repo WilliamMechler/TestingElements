@@ -21,7 +21,12 @@ XProductProto.createdCallback = function() {
     img.addEventListener('click', function(e) {
         window.location = this.getAttribute('data-url');
     });
-  
+    
+    //trying to add a break
+    var br = document.createElement('hr');
+    
+    shadow.appendChild(br);
+    
     // Create a link to the product.
     var link = document.createElement('a');
     link.innerText = this.getAttribute('data-name');
